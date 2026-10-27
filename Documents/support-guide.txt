@@ -1,0 +1,13 @@
+Database Troubleshooting Guide
+
+Connection Timeout
+
+A database connection timeout occurs when an application cannot establish a connection to the database within the configured time limit. Check the database server status, network connectivity, firewall rules, and connection string.
+
+Authentication Failed
+
+Authentication fails when the provided credentials are invalid or the database user cannot be authenticated. Verify the username, password, and authentication configuration.
+
+Access Denied
+
+Access is denied when a user is authenticated but does not have sufficient permissions to perform the requested operation. Check the user's database roles and permissions.
