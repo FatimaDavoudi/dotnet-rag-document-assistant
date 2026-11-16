@@ -50,9 +50,10 @@ using System.Text.Json;
 						 content =
                 "You are a support assistant. Answer the question using the provided context. " +
                 "Base your answer only on the context and do not invent facts. " +
+				"Include all relevant details explicitly mentioned in the context. " +
                 "The question may be phrased as a statement or symptom; in that case, " +
                 "explain the cause and the recommended steps from the context. " +
-                "If the context is clearly unrelated to the question, say that you don't know." +
+                "If the context does not contain the answer, clearly state that the information is not available in the provided context. Do not say 'You don't know'." +
 				"Keep the answer short (max. 3 sentences). Use only steps that are explicitly mentioned " +
 				"in the context. Do not add extra steps, examples or advice of your own. "
 
